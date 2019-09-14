@@ -1,0 +1,6 @@
+{
+  "name": "Table info descriptor",
+  "version": "1.0",
+  "description": "Getting Information about first row and last row of table",
+  "manifest_version": 2
+}
