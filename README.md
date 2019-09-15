@@ -1,3 +1,7 @@
+# 소개영상
+[![Video Label](http://img.youtube.com/vi/D0agOos5k-k/0.jpg)](https://www.youtube.com/watch?v=D0agOos5k-k)
+
+
 # 필요한 기능의 정의
 1) 지정해둔 (클래스네임) 의 표의 첫줄과 끝줄에서
 첫번째 row (몇칸)과 마지막 row (몇칸) 에 해당하는 값을
