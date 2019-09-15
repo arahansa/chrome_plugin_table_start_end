@@ -17,7 +17,7 @@ function handlePaging(e) {
     const keyCode = e.which
 
     if(prevPage == null){
-        href = href +'&page=1'
+        href = href.indexOf('?') === -1 ? '?' : +'&' + 'page=1'
         prevPage = 1
     }
 
