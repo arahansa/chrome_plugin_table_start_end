@@ -2,23 +2,17 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <style>
-        button {
-            height: 30px;
-            outline: none;
-        }
-        body{
-            min-width: 200px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <form>
     <legend>폼 정보</legend><br>
-    Table class Name : <input type="text"><br>
+    Table class Name : <input id="className" type="text" maxlength="20"><br>
     ON : <input id="on" type="checkbox"><br>
-    좌/우 화살표키 페이지 이동 여부 <input id="pagemove" type="checkbox"><br>
-    <button id="changeColor">저장</button>
+    <button id="submit" type="button">저장</button>
 </form>
+<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="popup.js"></script>
 </body>
 </html>
