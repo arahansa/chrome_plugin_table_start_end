@@ -16,8 +16,8 @@ function handlePaging(e) {
     let prevPage = page
     const keyCode = e.which
 
-    if(prevPage == null){
-        href = href.indexOf('?') === -1 ? '?' : +'&' + 'page=1'
+    if (prevPage == null) {
+        href = (href.indexOf('?') === -1 ? '?' : +'&') + 'page=1'
         prevPage = 1
     }
 
@@ -36,7 +36,7 @@ function handlePaging(e) {
 
 chrome.storage.sync.get(['on', 'className', 'firstRow', 'lastRow', 'column'], function (items) {
     console.log('items :', items)
-    
+
     if (items.on) {
         $(document).on('keypress', handlePaging);
 
