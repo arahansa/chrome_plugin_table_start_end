@@ -10,9 +10,24 @@
     <legend>폼 정보</legend><br>
     Table class Name : <input id="className" type="text" maxlength="20"><br>
     ON : <input id="on" type="checkbox"><br>
-    <button id="submit" type="button">저장</button>
+
+    <br>
+    첫번째 줄에서 몇번째 row 의 값을 가져올 것인가요? (첫번째줄은 0번부터 시작합니다.)<br>
+    <input id="firstRow" type="number" value="0"><br>
+
+    <br>
+    마지막 줄에서 몇번째 row 의 값을 가져올 것인가요? <input id="lastRow" type="number" value="0"><br>
+    <br>
+    몇번째 컬럼의 값을 가져올 것인가요? (0부터 시작) <input id="column" type="number" value="0"><br>
+    <br><button id="submit" type="button">저장</button>
+
+    <HR>
+    <p>a 키를 누르면 페이징 좌측 이동 , d 키를 누르면 페이징 우측 이동합니다.</p>
+
+
 </form>
 <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="popup.js"></script>
 </body>
 </html>
+
